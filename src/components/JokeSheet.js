@@ -8,9 +8,7 @@ const JokeSheet = props => {
                 <button>Get Data</button>
             </div>
             <div>
-                {
-                    props.jokes.map
-                }
+                <p>{props.joke}</p>
             </div>
         </>
     )
